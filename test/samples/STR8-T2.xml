@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Timetable>
+  <Group Info="T2 Homebush Shutles">
+	  <Comment>North Line</Comment>
+
+        <Service id="T2H1" Desc="Homebush Shuttle S8 H6 S7">
+              <Equipment>50;100;250;25;2500</Equipment>
+              <Element>   <Time>23:58</Time>                     <Data>Snt;ToStrathfieldP8</Data>   </Element>
+              <Element>  <Time Warn="1">00:00</Time>  <Time>0:00</Time>    <Data>Strathfield</Data>       </Element> 
+              <Element>  <Time>00:03</Time>                          <Data>Homebush</Data>       </Element> 
+              <Element>  <Time>00:04</Time>                          <Data>Fns;%ID%-T2H2</Data>       </Element> 
+          
+              <Starttime>07:12</Starttime> <!--  47824692  -->
+              <Starttime>07:27</Starttime> <!--  47826943 -->
+              <Starttime>07:42</Starttime> <!-- 47826082 -->
+              <Starttime>07:57</Starttime> <!--  47826337 -->
+
+              <Starttime>08:27</Starttime> <!--  47824049   -->
+              <Starttime>08:42</Starttime> <!-- 47822962  -->
+              <Starttime>08:57</Starttime> <!--  47823566   -->          
+              <Starttime>09:12</Starttime> <!-- 47827048  -->
+              <Starttime>09:27</Starttime> <!--  47824727  -->          
+              <Starttime>09:42</Starttime> <!-- 47825626  -->
+              <Starttime>09:57</Starttime> <!-- 47826723   -->  
+              <Starttime>10:12</Starttime> <!-- 47824694   -->
+              <Starttime>10:27</Starttime> <!--  47824800 -->          
+              <Starttime>10:42</Starttime> <!-- 47824029 -->
+              <Starttime>10:57</Starttime> <!-- 47824378   -->          
+           
+          
+          
+          </Service>
+
+			
+			
+			
+			
+        <Service id="T2H2" Desc="Homebush Shuttle H6-S7">
+   
+ 
+              <Element>  <Time>00:04</Time>                          <Data>Sns;%ID%-T2H1</Data>       </Element> 
+              <Element>  <Time>00:05</Time>                          <Data>cdt</Data>       </Element> 
+              <Element>  <Time>00:15</Time>                          <Data>Homebush</Data>       </Element> 			
+              <Element>  <Time>00:17</Time>  <Time>00:18</Time>    <Data>Strathfield</Data>       </Element> 			
+              <Element>   <Time>00:20</Time>                      <Data>Fer;FromStrathfieldP7</Data>    </Element>
+              
+              <!--   this list must match T2H1 -->
+              <Starttime>07:12</Starttime> <!--  47824692  -->
+              <Starttime>07:27</Starttime> <!--  47826943 -->
+              <Starttime>07:42</Starttime> <!-- 47826082 -->
+              <Starttime>07:57</Starttime> <!--  47826337 -->
+
+              <Starttime>08:27</Starttime> <!--  47824049   -->
+              <Starttime>08:42</Starttime> <!-- 47822962  -->
+              <Starttime>08:57</Starttime> <!--  47823566   -->          
+              <Starttime>09:12</Starttime> <!-- 47827048  -->
+              <Starttime>09:27</Starttime> <!--  47824727  -->          
+              <Starttime>09:42</Starttime> <!-- 47825626  -->
+              <Starttime>09:57</Starttime> <!-- 47826723   -->  
+              <Starttime>10:12</Starttime> <!-- 47824694   -->
+              <Starttime>10:27</Starttime> <!--  47824800 -->          
+              <Starttime>10:42</Starttime> <!-- 47824029 -->
+              <Starttime>10:57</Starttime> <!-- 47824378   -->    
+          </Service>    
+
+	  
+        <Service id="T2HA" Desc="Homebush Shuttle S8 H6 S7">
+              <Equipment>50;100;250;25;2500</Equipment>
+              <Element>   <Time>23:58</Time>                     <Data>Snt;ToStrathfieldP8</Data>   </Element>
+              <Element>  <Time Warn="1">00:00</Time>  <Time>0:00</Time>    <Data>Strathfield</Data>       </Element> 
+              <Element>  <Time>00:03</Time>                          <Data>Homebush</Data>       </Element> 
+              <Element>  <Time>00:04</Time> <Data>Fns;%ID%-T2HB</Data>       </Element> 
+			<Starttime>08:15</Starttime> <!-- 47823440  -->
+        </Service>	  
+			
+        <Service id="T2HB" Desc="Homebush Shuttle H6-S7">
+   
+ 
+              <Element>  <Time>00:04</Time>                          <Data>Sns;%ID%-T2HA</Data>       </Element> 
+              <Element>  <Time>00:05</Time>                          <Data>cdt</Data>       </Element> 
+              <Element>  <Time>00:12</Time>                          <Data>Homebush</Data>       </Element> 			
+              <Element>  <Time>00:14</Time>  <Time>00:15</Time>    <Data>Strathfield</Data>       </Element> 			
+              <Element>   <Time>00:17</Time>  	               <Data>Fer;FromStrathfieldP7</Data>    </Element>
+			  <Starttime>08:15</Starttime> <!-- 47823440  -->
+       </Service>
+				  
+	  
+	  
+	  
+</Group> 
+  
+  
+<Group Info="T2 "> 
+     <Service id="T2H3" Desc="Empty S8-H7-F4-L4">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element>   <Time>23:58</Time>                         <Data>Snt;ToStrathfieldP8</Data>   </Element>
+            <Element>  <Time>00:00</Time>  <Time>0:03</Time>       <Data>Strathfield</Data>       </Element> 
+            <Element>  <Time>00:04</Time>                          <Data>pas;Homebush</Data>       </Element> 
+            <Element>  <Time>00:06</Time>                          <Data>pas;Flemington</Data>       </Element> 
+            <Element>  <Time>00:09</Time>                          <Data>pas;Lidcombe</Data>       </Element> 		
+            <Element>  <Time>00:11</Time>                          <Data>Fer;FromLidcombeP4</Data>    </Element>
+            <Starttime>08:21</Starttime> <!-- 47826465   -->  
+            <Starttime>08:36</Starttime> <!-- 47824201    -->  
+        </Service> 
+  
+  
+     <Service id="T2H4" Desc="Strathfield S8-H7-F4-L4">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element>  <Time>23:58</Time>                          <Data>Snt;ToStrathfieldP8</Data>   </Element>
+            <Element>  <Time>00:00</Time>  <Time>0:03</Time>       <Data>Strathfield</Data>       </Element> 
+            <Element>  <Time>00:04</Time>                          <Data>pas;Homebush</Data>       </Element> 
+            <Element>  <Time>00:06</Time>                          <Data>pas;Flemington</Data>       </Element> 
+            <Element>  <Time>00:09</Time>                          <Data>pas;Lidcombe</Data>       </Element> 		
+            <Element>  <Time>00:11</Time>                          <Data>Fer;FromLidcombeP4</Data>    </Element>
+            <Starttime>09:36</Starttime> <!-- 47825138  -->  
+      </Service>   
+  
+  
+     <Service id="T2H5" Desc="Empty Train S8-H7-F4-L4">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element>  <Time>23:58</Time>                          <Data>Snt;ToStrathfieldP8</Data>   </Element>
+            <Element>  <Time>00:00</Time>  <Time>0:01</Time>       <Data>Strathfield</Data>       </Element> 
+            <Element>  <Time>00:02</Time>                          <Data>pas;Homebush</Data>       </Element> 
+            <Element>  <Time>00:04</Time>  <Time>0:04</Time>       <Data>Flemington</Data>       </Element> 
+            <Element>  <Time>00:07</Time>  <Time>0:08</Time>        <Data>Lidcombe</Data>           </Element> 		
+            <Element>  <Time>00:10</Time>                          <Data>Fer;FromLidcombeP4</Data>    </Element>
+            <Starttime>10:30</Starttime> <!-- 47827011 -->  
+            <Starttime>11:00</Starttime> <!-- 47825909  -->
+     </Service>   
+  
+  
+     <Service id="T2H6" Desc="Leppington S8-H7-F4-L4">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element>   <Time>23:58</Time>                         <Data>Snt;ToStrathfieldP8</Data>   </Element>
+            <Element>  <Time>00:00</Time>  <Time>0:01</Time>       <Data>Strathfield</Data>       </Element> 
+            <Element>  <Time>00:02</Time>                          <Data>pas;Homebush</Data>       </Element> 
+            <Element>  <Time>00:04</Time>  <Time>0:04</Time>       <Data>Flemington</Data>       </Element> 
+            <Element>  <Time>00:07</Time>  <Time>0:08</Time>        <Data>Lidcombe</Data>       </Element> 		
+            <Element>  <Time>00:10</Time>                          <Data>Fer;FromLidcombeP4</Data>    </Element>
+
+            <Starttime>07:15</Starttime> <!-- 47824674   -->
+            <Starttime>07:31</Starttime> <!--  47823497 -->
+            <Starttime>07:46</Starttime> <!-- 47824001 -->
+            <Starttime>08:01</Starttime> <!-- 47824580  -->
+            <Starttime>08:18</Starttime> <!-- 47824787  -->
+            <Starttime>08:31</Starttime> <!-- 7823270  -->      
+            <Starttime>08:46</Starttime> <!-- 7826664  -->
+            <Starttime>09:00</Starttime> <!--47825015  -->       
+            <Starttime>09:15</Starttime> <!-- 47823433  -->
+            <Starttime>09:30</Starttime> <!-- 47826475 -->  
+            <Starttime>09:45</Starttime> <!-- 47826153  -->
+            <Starttime>10:00</Starttime> <!-- 47826846  -->
+            <Starttime>10:15</Starttime> <!-- 47822979   -->       
+            <Starttime>10:45</Starttime> <!-- 47826064   -->
+   
+     </Service>     
+
+  
+    <Service id="T2H7" Desc="Liverpool S8-H7-F4-L4-B2-R2-S2">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element>   <Time>23:58</Time>                         <Data>Snt;ToStrathfieldP8</Data>   </Element>
+            <Element>  <Time>00:00</Time>  <Time>0:01</Time>       <Data>Strathfield</Data>       </Element> 
+            <Element>  <Time>00:02</Time>  <Time>00:03</Time>      <Data>Homebush</Data>       </Element> 
+            <Element>  <Time>00:05</Time>  <Time>0:06</Time>       <Data>Flemington</Data>       </Element> 
+            <Element>  <Time>00:08</Time>  <Time>0:09</Time>        <Data>Lidcombe</Data>       </Element> 
+            <Element>  <Time>00:12</Time>  <Time>0:12</Time>        <Data>Berala</Data>       </Element> 
+            <Element>  <Time>00:14</Time>  <Time>0:14</Time>        <Data>Regents Park</Data>       </Element> 
+            <Element>  <Time>00:16</Time>  <Time>0:17</Time>        <Data>Sefton</Data>       </Element> 
+      
+            <Element>  <Time>00:18</Time>                          <Data>Fer;FromSeftonP2</Data>    </Element>
+            <Starttime>08:12</Starttime> <!-- 47825548  -->    
+    </Service>    
+
+    <Service id="T2H8" Desc="City Circle L3-F3-H4-S7">
+          <Equipment>50;100;250;25;2500</Equipment>
+          <Element>  <Time>23:58</Time>                         <Data>Snt;ToLidcombeP3</Data>   </Element>
+          <Element>  <Time>00:00</Time>  <Time>0:00</Time>        <Data>Lidcombe</Data>       </Element> 
+          <Element>  <Time>00:04</Time>                           <Data>pas;Flemington</Data>       </Element>       
+          <Element>  <Time>00:05</Time>                           <Data>pas;Homebush</Data>       </Element> 
+          <Element>  <Time>00:06</Time>  <Time>0:07</Time>       <Data>Strathfield</Data>       </Element>       
+          <Element>  <Time>00:09</Time>                          <Data>Fer;FromStrathfieldP7</Data>    </Element>
+          <Element>                                              <Data>R;15;0;5</Data>    </Element>
+      
+          <Starttime>07:20</Starttime> <!-- 47826831 ..... 47826731-->    
+    </Service>    
+    
+  
+    <Service id="T2H9" Desc="City Circle L3-F3-H4-S7">
+          <Equipment>50;100;250;25;2500</Equipment>
+          <Element>  <Time>23:58</Time>                         <Data>Snt;ToLidcombeP3</Data>         </Element>
+          <Element>  <Time>00:00</Time>  <Time>0:00</Time>        <Data>Lidcombe</Data>                </Element> 
+          <Element>  <Time>00:04</Time>  <Time>00:04</Time>        <Data>Flemington</Data>              </Element>       
+          <Element>  <Time>00:06</Time>                           <Data>pas;Homebush</Data>            </Element> 
+          <Element>  <Time>00:07</Time>  <Time>0:08</Time>       <Data>Strathfield</Data>              </Element>       
+          <Element>  <Time>00:09</Time>                          <Data>Fer;FromStrathfieldP7</Data>    </Element>
+ 
+      
+          <Starttime>07:04</Starttime> <!-- 47825680 -->   
+          <Starttime>07:16</Starttime> <!-- 47823059  -->   
+          <Starttime>07:31</Starttime> <!-- 47826769  -->   
+          <Starttime>07:46</Starttime> <!-- 47827180  -->   
+          <Starttime>08:01</Starttime> <!-- 47823148   -->   
+          <Starttime>08:16</Starttime> <!-- 7826651  -->   
+          <Starttime>08:31</Starttime> <!-- 47824143  -->   
+          <Starttime>08:49</Starttime> <!-- 47825550  -->   
+          <Starttime>09:04</Starttime> <!-- 47826776    -->   
+          <Starttime>09:19</Starttime> <!-- 47823499 -->   
+          <Starttime>09:34</Starttime> <!-- 47824003   -->   
+          <Starttime>09:49</Starttime> <!-- 47824579 -->   
+          <Starttime>10:04</Starttime> <!-- 47826341  -->   
+          <Starttime>10:19</Starttime> <!-- 47823269 -->   
+          <Starttime>10:34</Starttime> <!-- 47824813 -->   
+          <Starttime>10:49</Starttime> <!-- 47825669  -->   
+  
+    </Service>  
+  
+  
+  
+  
+   </Group>                    
+                         
+</Timetable>

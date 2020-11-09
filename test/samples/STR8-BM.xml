@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Timetable>
+  <Group Info="Blue Mountains Up ECS">
+    <Service id="1MBE" Desc="BM-ECS S3-H3-F2-L2">
+      <Equipment>70;100;250;25;2500</Equipment>
+        <Element>   <Time>23:58</Time>                  <Data>Snt;ToStrathfieldP3</Data>                 </Element>
+        <Element>  <Time>00:00</Time>  <Time>0:00</Time><Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:02</Time>                   <Data>pas;Homebush</Data>                        </Element>
+        <Element>  <Time>00:04</Time>                   <Data>pas;Flemington</Data>                      </Element>
+        <Element>  <Time>00:05</Time>                   <Data>pas;Lidcombe</Data>                         </Element>
+        <Element>   <Time>00:06</Time>                  <Data>Fer;FromLidcombeP2</Data>                 </Element>
+        <Starttime>07:35</Starttime>  <!-- 4786183 -->
+        <Starttime>08:30</Starttime>  <!-- 4786139 --> 
+        <Starttime>09:30</Starttime> <!--  47825136 --> 
+
+
+    </Service>
+
+  </Group>
+  <Group Info="Blue Mountains Up Katoomba">
+    <Service id="1MBK" Desc="Katoomba S3-H3-F2-L2">
+      <Equipment>70;100;250;25;2500</Equipment>
+        <Element>   <Time>23:58</Time>                  <Data>Snt;ToStrathfieldP3</Data>                 </Element>
+        <Element>  <Time>00:00</Time>  <Time>0:00</Time><Data>Strathfield</Data>                       </Element>
+        <Element>  <Time>00:02</Time>                   <Data>pas;Homebush</Data>                          </Element>
+        <Element>  <Time>00:04</Time>                   <Data>pas;Flemington</Data>                        </Element>
+        <Element>  <Time>00:05</Time>                   <Data>pas;Lidcombe</Data>                         </Element>
+        <Element>   <Time>00:06</Time>                  <Data>Fer;FromLidcombeP2</Data>                 </Element>
+
+        <Starttime>07:04</Starttime><!--  47823660 --> 
+    </Service> 
+  </Group>
+
+  <Group Info="Blue Mountains Up Lithgow">
+    <Service id="1MBL" Desc="Lithgow S3-H3-F2-L2">
+      <Equipment>70;100;250;25;2500</Equipment>
+        <Element>   <Time>23:58</Time>                  <Data>Snt;ToStrathfieldP3</Data>                 </Element>
+        <Element>  <Time>00:00</Time>  <Time>0:00</Time><Data>Strathfield</Data>                       </Element>
+        <Element>  <Time>00:02</Time>                   <Data>pas;Homebush</Data>                          </Element>
+        <Element>  <Time>00:04</Time>                   <Data>pas;Flemington</Data>                        </Element>
+        <Element>  <Time>00:05</Time>                   <Data>pas;Lidcombe</Data>                         </Element>
+        <Element>   <Time>00:06</Time>                  <Data>Fer;FromLidcombeP2</Data>                 </Element>
+
+        <Starttime>10:30</Starttime><!--  47824368 --> 
+    </Service> 
+  </Group>
+
+  <Group Info="Blue Mountains Up Springwood S6-H3-F2-L2">
+    <Service id="1MBS" Desc="Springwood S6-H3-F2-L2 ">
+      <Equipment>70;100;250;25;2500</Equipment>
+        <Element>   <Time>23:58</Time>                  <Data>Snt;ToStrathfieldP6</Data>                 </Element>
+        <Element>  <Time>00:00</Time>  <Time>0:00</Time><Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:03</Time>                   <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:04</Time>                   <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:06</Time> <Time>00:06</Time> <Data>Lidcombe</Data>                          </Element>
+        <Element>   <Time>00:08</Time>                  <Data>Fer;FromLidcombeP2</Data>                 </Element>
+
+        <Starttime>08:05</Starttime><!--  47825278 --> 
+    </Service> 
+  </Group>
+
+  <Group Info="Blue Mountains Down Bathurst">
+    <Service id="1M1B" Desc="Bathurst L1-F1-H2-S2">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                          </Element>
+        <Element>  <Time>00:03</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:05</Time>                   <Data>pas;Strathfield</Data>                        </Element>
+        <Element>  <Time>00:06</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+        <Starttime>09:06</Starttime><!--  47823219 --> 
+    </Service> 
+  </Group>
+
+
+  <Group Info="Blue Mountains Down Katoomba">
+    <Service id="1M1K" Desc="Katoomba L1-F1-H2-S2">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:03</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:05</Time> <Time>00:06</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+        <Starttime>09:25</Starttime><!--  47824369 --> 
+        <Starttime>10:55</Starttime><!--  47826908 --> 
+    </Service> 
+  </Group>
+
+
+  <Group Info="Blue Mountains Down Lithgow">
+    <Service id="1M1L" Desc="Lithgow L1-F1-H2-S2 ">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:02</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:06</Time> <Time>00:07</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+        <Element><Data>R;30;0;2</Data></Element>  <!--  47825134   47823170  47825979  -->
+        <Starttime>07:28</Starttime><!--      -->
+ 
+    </Service> 
+    <!-- 4th of the block  -->
+    <Service id="1M2L" Desc="Lithgow L1-F1-H2-S2">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:02</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:06</Time> <Time>00:07</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+
+        <Starttime>09:55</Starttime><!-- 47825893     -->
+ 
+    </Service> 
+
+
+
+  </Group>
+
+
+  <Group Info="Blue Mountains Down Mt Victoria">
+    <Service id="1M1V" Desc="Mt Victoria L1-F1-H2-S2 ">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:02</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:06</Time> <Time>00:07</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+        <Element><Data>R;30;0;3</Data></Element>  <!--47826889  47825000 47823823 47826853   -->
+        <Starttime>07:13</Starttime><!--      -->
+ 
+    </Service> 
+     <!--  last of block  -->
+    <Service id="1M2V" Desc="Mt Victoria  L1-F1-H2-S2 ">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP1</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:02</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:06</Time> <Time>00:07</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+
+        <Starttime>09:04</Starttime><!-- 47824131     -->
+ 
+    </Service> 
+
+
+
+  </Group>
+
+
+  <Group Info="Blue Mountains Down Springwood">
+    <Service id="1M2S" Desc="Springwood L3-F3-H2-S2">
+      <Equipment>70;100;250;25;2500</Equipment>      
+        <Element>  <Time>23:59</Time>                    <Data>Snt;ToLidcombeP3</Data>                 </Element>
+        <Element>  <Time>00:00</Time>                    <Data>pas;Lidcombe</Data>                      </Element>
+        <Element>  <Time>00:02</Time>                    <Data>pas;Flemington</Data>                     </Element>
+        <Element>  <Time>00:04</Time>                    <Data>pas;Homebush</Data>                       </Element>
+        <Element>  <Time>00:05</Time> <Time>00:06</Time> <Data>Strathfield</Data>                        </Element>
+        <Element>  <Time>00:07</Time>                   <Data>Fer;FromStrathfieldP2</Data>                 </Element> 
+
+        <Starttime>10:26</Starttime><!--  47825281    -->
+ 
+    </Service> 
+
+
+
+
+
+  </Group>
+
+
+</Timetable>

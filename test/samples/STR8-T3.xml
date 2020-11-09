@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Timetable>
+ 
+    <Comment>T3 Bankstown Line From Liverpool</Comment>
+    
+    <Group Info="Bankstown-Liverpool ">
+  
+        <Service id="3S40" Desc="Liverpool to Bankstown">
+            <Equipment>50;100;250;25;2500</Equipment>
+            <Element> <Time>23:58</Time>                        <Data>Snt;ToSeftonP1</Data>      </Element>
+            <Element> <Time>00:00</Time> <Time>00:00</Time>     <Data>Sefton</Data>               </Element>
+            <Element> <Time>00:04</Time> <Time>00:04</Time>     <Data>Birrong</Data>              </Element>
+            <Element> <Time>0:06</Time>                        <Data>Fer;BankstownOut</Data>     </Element>
+            <Starttime>07:08</Starttime>  <!-- 47826484  -->
+            <Starttime>07:22</Starttime>  <!-- 47825147  -->
+            <Starttime>07:38</Starttime>  <!-- 47825582   -->
+            <Starttime>07:52</Starttime>  <!-- 47823747  -->
+            <Starttime>08:08</Starttime>  <!-- 47827058 -->
+            <Starttime>08:22</Starttime>  <!-- 47826423 -->
+            <Starttime>08:40</Starttime>  <!-- 47825810 -->
+            <Starttime>09:10</Starttime>  <!-- 47823761 -->
+            
+          
+            <Starttime>09:34</Starttime>  <!-- 47823060 -->
+            <Starttime>10;04</Starttime>  <!-- 47826208 -->
+            <Starttime>10:34</Starttime>  <!-- 47823992  -->
+      </Service>
+      
+      
+      <Service id="2S41" Desc="Bankstown to Liverpool">
+        <Equipment>50;100;250;25;2500</Equipment>
+        <Element> <Time>00:00</Time>                      <Data>Snt;BankstownIn</Data>        </Element>
+        <Element> <Time>00:01</Time> <Time>00:01</Time>  <Data>Birrong</Data>                </Element>
+        <Element> <Time>00:05</Time>  <Time>00:05</Time>  <Data>Sefton</Data>                 </Element>
+        <Element> <Time>00:07</Time>                      <Data>Fer;FromSeftonP2</Data>              </Element>
+         <Starttime>07:04</Starttime>  <!-- 47823748 -->
+         <Starttime>07:34</Starttime>  <!-- 47824518 -->
+         <Starttime>07:50</Starttime>  <!-- 47825808 -->
+         <Starttime>08:34</Starttime>  <!-- 47823061 -->
+         <Starttime>09:04</Starttime>  <!-- 47826206 -->
+         <Starttime>09:34</Starttime>  <!-- 47823989 -->
+         <Starttime>10:04</Starttime>  <!-- 47824885 -->
+        
+        
+         <Starttime>10:33</Starttime>  <!-- 47826224 -->
+     </Service>
+
+   </Group>
+
+   <Group>
+    <Comment>T3 Bankstown Line Shuttles</Comment>
+
+      <Service id="3S20" Desc="Bankstown line">
+         <Equipment>0;100;250;25;2500</Equipment>
+        <Element>  <Time>07:00</Time>                     <Data>Snt;31-24 30-24</Data>          </Element>
+
+        <Element>  <Time>07:06</Time>                     <Data>Lidcombe</Data>          </Element>
+        <Element>  <Time>07:09:</Time>  <Time>07:10</Time>  <Data>Berala</Data>            </Element>
+        <Element>  <Time>07:12</Time>   <Time>07:12</Time> <Data>Regents Park</Data>       </Element>
+        <Element>  <Time>07:16</Time>   <Time>07:16</Time>  <Data>Birrong</Data>          </Element>
+        <Element>  <Time>07:18</Time>                   <Data>Fer;BankstownOut</Data>     </Element>
+        <Starttime>00:00</Starttime>   <!-- 47824200  -->  
+       
+      </Service>    
+    
+    
+      <Service id="3A29" Desc="Bankstown Line">
+        <Equipment>50;100;250;25;2500</Equipment>
+        <Element>   <Time>00:00</Time>                     <Data>Snt;BankstownIn</Data>    </Element>
+        <Element>   <Time>00:02</Time> <Time>00:02</Time>  <Data>Birrong</Data>             </Element>
+        <Element>  <Time>00:06</Time>  <Time>00:06</Time>  <Data>Regents Park</Data>        </Element>
+        <Element> <Time>00:09</Time> <Time>00:09</Time>   <Data>Berala</Data>              </Element>
+        <Element> <Time>00:13</Time>                      <Data>Lidcombe</Data>             </Element>
+        <Element>  <Time>00:14</Time>                      <Data>Fns;%ID%-3S30</Data>       </Element>
+        <Starttime>07:00</Starttime>  <!-- 47825066  -->
+        <Starttime>07:15</Starttime>  <!-- 47825371  -->
+        <Starttime>07:30</Starttime>  <!--  47825010 -->
+        <Starttime>07:45</Starttime>  <!--  47824612 -->
+        <Starttime>08:03</Starttime>  <!-- 47824672  -->
+        <Starttime>08:16</Starttime>  <!--  47826570 -->
+        <Starttime>08:31</Starttime>  <!-- 47824704  -->
+        <Starttime>08:46</Starttime>  <!-- 47824252  -->           
+        <Starttime>09:15</Starttime>  <!-- 47825583  -->         
+        <Starttime>09:45</Starttime>  <!-- 47823486  -->        
+        <Starttime>10:18</Starttime>  <!-- 47825809  -->        
+        <Starttime>10:48</Starttime>  <!--  47826533 -->    
+      </Service>
+		
+		
+      <Service id="3S30" Desc="Bankstown line">
+        <Element>  <Time>00:14</Time>                     <Data>Sns;%ID%-3A29</Data>          </Element>
+        <Element>  <Time>00:15</Time>                      <Data>cdt</Data>               </Element>
+        <Element>  <Time>00:21</Time>                     <Data>Lidcombe</Data>          </Element>
+        <Element>  <Time>00:24</Time>  <Time>00:24</Time>  <Data>Berala</Data>            </Element>
+        <Element>  <Time>00:27</Time>    <Time>00:27</Time> <Data>Regents Park</Data>       </Element>
+        <Element>  <Time>00:30</Time>    <Time>00:31</Time>  <Data>Birrong</Data>          </Element>
+        <Element>  <Time>00:33</Time>                   <Data>Fer;BankstownOut</Data>     </Element>
+        <Starttime>07:00</Starttime>  <!-- 47825066  -->
+        <Starttime>07:15</Starttime>  <!-- 47825371  -->
+        <Starttime>07:30</Starttime>  <!--  47825010 -->
+        <Starttime>07:45</Starttime>  <!--  47824612 -->
+        <Starttime>08:03</Starttime>  <!-- 47824672  -->
+        <Starttime>08:16</Starttime>  <!--  47826570 -->
+        <Starttime>08:31</Starttime>  <!-- 47824704  -->
+        <Starttime>08:46</Starttime>  <!-- 47824252  -->           
+        <Starttime>09:15</Starttime>  <!-- 47825583  -->         
+        <Starttime>09:45</Starttime>  <!-- 47823486  -->        
+        <Starttime>10:18</Starttime>  <!-- 47825809  -->        
+        <Starttime>10:48</Starttime>  <!--  47826533 -->   
+           
+      </Service>
+	  
+	 	  
+    </Group> 
+  
+    <Group Info="Bankstown-Liverpool via rpk ">
+      <Service id="3S60" Desc="Bankstown line">
+         <Equipment>0;100;250;25;2500</Equipment>
+        <Element>  <Time>00:00</Time>                     <Data>Snt;BankstownIn</Data>          </Element>
+        <Element>  <Time>00:02</Time>   <Time>00:02</Time>  <Data>Birrong</Data>          </Element>
+        <Element>  <Time>00:06</Time>                       <Data>Regents Park</Data>       </Element>    
+        <Element>  <Time>00:08</Time>                       <Data>cdt</Data>       </Element>                 
+        <Element>  <Time Warn="1">00:17</Time>                       <Data>Regents Park</Data>       </Element>          
+        <Element>  <Time>00:20</Time>                      <Data>pas;Sefton</Data>            </Element>
+        <Element>  <Time>00:22</Time>                   <Data>Fer;FromSeftonP2</Data>     </Element>
+         <Element>                                     <Data>R;30;0;2</Data>     </Element>
+        
+        <Starttime>09:00</Starttime>   <!-- 47825146 ....47826424  -->  
+       
+      </Service>      
+  
+    </Group>   
+</Timetable>

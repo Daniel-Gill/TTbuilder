@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Timetable>
+  <TimeTableStart>07:00</TimeTableStart>
+  <Defs>
+    <Def Name="NorthIn" Data="54-2 55-2"></Def> 
+    <Def Name="ToRhodesP1" Data="54-2 55-2"></Def>
+
+    <Def Name="NorthOut" Data="54-3"></Def>
+    <Def Name="FromRhodesP2" Data="54-3"></Def> 
+    <Def Name="FromRhodesP3" Data="54-3"></Def> 
+
+	  
+    <Def Name="UpMainOut" Data="131-20"></Def>
+	<Def Name="FromStrathfieldP1" Data="131-20"></Def>  
+    <Def Name="FromStrathfieldP2" Data="131-20"></Def>  
+
+    <Def Name="UpMainIn" Data="131-21 130-21"></Def>
+  	<Def Name="ToStrathfieldP3" Data="131-21 130-21"></Def>	  
+
+  	<Def Name="UpSuburbanOut" Data="132-22"></Def>
+    <Def Name="FromStrathfieldP4" Data="132-22"></Def>
+    <Def Name="FromStrathfieldP5" Data="132-22"></Def>		  
+
+  	<Def Name="UpSuburbanIn" Data="132-23 131-23"></Def>
+    <Def Name="ToStrathfieldP6" Data="132-23 131-23"></Def>
+
+  	<Def Name="UpLocalOut" Data="131-24"></Def>
+    <Def Name="FromStrathfieldP7" Data="131-24"></Def> 	  
+	  
+	<Def Name="UpLocalIn" Data="131-25 130-25"></Def>
+	<Def Name="ToStrathfieldP8" Data="131-25 130-25"></Def>  
+    
+
+	  
+
+	  
+  	<Def Name="DownMainIn" Data="6-20 7-20"></Def>
+    <Def Name="ToLidcombeP1" Data="6-20 7-20"></Def>
+
+    <Def Name="DownMainOut" Data="6-21"></Def>
+    <Def Name="FromLidcombeP2" Data="6-21"></Def>
+
+
+    <Def Name="DownSuburbanIn" Data="7-22 8-22"></Def>
+    <Def Name="ToLidcombeP3" Data="7-22 8-22"></Def>
+
+
+    <Def Name="DownSuburbanOut" Data="7-23"></Def>
+    <Def Name="FromLidcombeP4" Data="7-23"></Def>
+
+    <Def Name="MainSouthIn" Data="24-32 25-32"></Def>
+    <Def Name="ToSeftonP1" Data="24-32 25-32"></Def>
+    
+    
+    <Def Name="MainSouthOut" Data="24-33"></Def>
+    <Def Name="FromSeftonP2" Data="24-33"></Def>
+
+  	<Def Name="BankstownIn" Data="53-35 52-35"></Def>
+
+    <Def Name="BankstownOut" Data="53-34"></Def>
+
+    <Def Name="ToFlemingtonShedCityEnd" Data="57-18"></Def>
+    
+    <Def Name="ToFlemingtonShedLidcombeEnd" Data="55-18"></Def>
+    <Def Name="FromFlemingtonShedLidcombeEnd" Data="57-19 56-19"></Def>
+  </Defs>
+</Timetable>
